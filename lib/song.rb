@@ -1,4 +1,5 @@
 require_relative './artist.rb'
+require_relative './genre.rb'
 
 class Song
   attr_reader :artist, :genre
@@ -11,6 +12,8 @@ class Song
     @@all << self
   end
 
-
+  def self.all
+    @@all
+  end
 
 end
