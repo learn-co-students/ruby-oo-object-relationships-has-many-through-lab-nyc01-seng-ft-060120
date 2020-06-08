@@ -1,3 +1,4 @@
+require 'pry'
 require_relative "../lib/song.rb"
 require_relative "../lib/artist.rb"
 require_relative "../lib/genre.rb"
@@ -84,3 +85,4 @@ RSpec.configure do |config|
   end
 =end
 end
+# binding.pry
